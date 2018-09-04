@@ -1,8 +1,64 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+
+	<style>
+	.photos imageStyle {
+		margin-top: 10%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.Landscape {
+		display: table;
+		margin: auto;
+	}
+
+	.img_wrap {
+		width: 100%;
+		height: 100%;
+		position: relative;
+		text-align: center;
+		color: black;
+		display: table-cell;
+		padding-bottom: 3vw;
+		padding-left: 3vw;
+		padding-right: 3vw;
+	}
+
+	.img_div {
+		height: 22vw;
+		width: 22vw;
+	}
+
+	.cap {
+		height: inherit;
+		width: inherit;
+		position: absolute;
+		z-index: 10;
+		top: 0.5vh;
+		left: 3.3vw;
+		margin: 0;
+		visibility: hidden;
+		opacity: 0;
+		font-size: 1.6vw;
+		background: rgba(0, 0, 0, 0.5);
+	}
+
+	.img {
+		object-fit: cover; 
+		width: 22vw; 
+		height: 22vw; 
+		cursor: pointer; 
+		margin: 0.3vw;"
+	}
+</style>
+
 </head>
 <body>
+
 <!-- navigation panel -->
 	<div id="undefined-sticky-wrapper" class="sticky-wrapper is-sticky" style="height: 55px;">
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -12,12 +68,293 @@
 	<center><strong>G/D</strong></center>
 	</a>
 </div>
-</nav>
+</nav>	
 </div>
-		<!-- end of navigation panel -->
+	<!-- end of navigation panel -->
+
 <p class="text" style="color: #a9a9a9; font-size: 40px; font-style: italic; font-weight: 500; line-height: 30px; text-align: center; width: 100%;">Your personal photographer.</p>
 
+<section class="photograph-section">
+    <div class="horizontal-divider"></div>
 
+    <!-- Thumbnail -->
+    <div class="photos imageStyle" style="margin-top: 10%; margin-left: 5%; margin-right: 5%;">
+      <div id="Landscape" style="display: table; margin: auto;">
+
+        <div class="img_wrap">
+          <div class="img_div">
+            <img id="land" src="IMG_1538.JPG" style="object-fit: cover; width: 22vw; height: 22vw; cursor: pointer; margin: 0.3vw;">
+            <p class="cap" onclick="document.getElementById('cliff').style.display='block'">
+              <span style="margin-top: 9vw"></span>
+              <span style="font-size: 1vw;"></span>
+            </p>
+          </div>
+        </div>
+        <div class="img_wrap">
+          <div class="img_div">
+            <img id="land" src="IMG_1725.JPG" style="object-fit: cover; width: 22vw; height: 22vw; cursor: pointer; margin: 0.3vw;">
+            <p class="cap" onclick="document.getElementById('phone').style.display='block'">
+              <span style="margin-top: 9vw"></span>
+              <span style="font-size: 1vw;"></span>
+            </p>
+          </div>
+        </div>
+        <div class="img_wrap">
+          <div class="img_div">
+            <img id="land" src="IMG_1731.JPG" style="object-fit: cover; width: 22vw; height: 22vw; cursor: pointer; margin: 0.3vw;">
+            <p class="cap" onclick="document.getElementById('purpleOcean').style.display='block'">
+              <span style="margin-top: 9vw"></span>
+              <span style="font-size: 1vw"></span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div id="Landscape">
+        <div class="img_wrap">
+          <div class="img_div">
+            <img id="land4" src="IMG_1851.JPG" style="object-fit: cover; width: 22vw; height: 22vw; cursor: pointer; margin: 0.3vw;">
+            <p class="cap" onclick="document.getElementById('enrico').style.display='block'">
+              <span style="margin-top: 9vw"></span>
+              <span style="font-size: 1vw"></span>
+            </p>
+          </div>
+        </div>
+        <div class="img_wrap">
+          <div class="img_div">
+            <img id="land5" src="IMG_2003.JPG" style="object-fit: cover; width: 22vw; height: 22vw; cursor: pointer; margin: 0.3vw;">
+            <p class="cap" onclick="document.getElementById('kids').style.display='block'">
+              <span style="margin-top: 9vw">n</span>
+              <span style="font-size: 1vw">J</span>
+            </p>
+          </div>
+        </div>
+        <div class="img_wrap">
+          <div class="img_div">
+            <img id="land6" src="IMG_2005.JPG" style="object-fit: cover; width: 22vw; height: 22vw; cursor: pointer; margin: 0.3vw;">
+            <p class="cap" onclick="document.getElementById('surfCom').style.display='block'">
+              <span style="margin-top: 9vw"></span>
+              <span style="font-size: 1vw"></span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div id="Landscape">
+        <div class="img_wrap">
+          <div class="img_div">
+            <img id="land7" src="IMG_2006.JPG" style="object-fit: cover; width: 22vw; height: 22vw; cursor: pointer; margin: 0.3vw;">
+            <p class="cap" onclick="document.getElementById('surfer').style.display='block'">
+              <span style="margin-top: 9vw"></span>
+              <span style="font-size: 1vw"></span>
+            </p>
+          </div>
+        </div>
+        <div class="img_wrap">
+          <div class="img_div">
+            <img id="land8" src="IMG_2013.JPG" style="object-fit: cover; width: 22vw; height: 22vw; cursor: pointer; margin: 0.3vw;">
+            <p class="cap" onclick="document.getElementById('geisel').style.display='block'">
+              <span style="margin-top: 9vw"></span>
+              <span style="font-size: 1vw"></span>
+            </p>
+          </div>
+        </div>
+        <div class="img_wrap">
+          <div class="img_div">
+            <img id="land9" src="IMG_2145.JPG" style="object-fit: cover; width: 22vw; height: 22vw; cursor: pointer; margin: 0.3vw;">
+            <p class="cap" onclick="document.getElementById('couple').style.display='block'">
+              <span style="margin-top: 9vw"></span>
+              <span style="font-size: 1vw"></span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div id="Landscape">
+        <div class="img_wrap">
+          <div class="img_div">
+            <img id="land10" src="IMG_2202.JPG" style="object-fit: cover; width: 22vw; height: 22vw; cursor: pointer; margin: 0.3vw;">
+            <p class="cap" onclick="document.getElementById('jozie1').style.display='block'">
+              <span style="margin-top: 9vw"></span>
+              span style="font-size: 1vw"></span>
+            </p>
+          </div>
+        </div>
+        <div class="img_wrap">
+          <div class="img_div">
+            <img id="land11" src="IMG_2211.JPG" style="object-fit: cover; width: 22vw; height: 22vw; cursor: pointer; margin: 0.3vw;">
+            <p class="cap" onclick="document.getElementById('natalie1').style.display='block'">
+              <span style="margin-top: 9vw"></span>
+              <span style="font-size: 1vw"></span>
+            </p>
+          </div>
+        </div>
+        <div class="img_wrap">
+          <div class="img_div">
+            <img id="land12" src="IMG_2216.JPG" style="object-fit: cover; width: 22vw; height: 22vw; cursor: pointer; margin: 0.3vw;">
+            <p class="cap" onclick="document.getElementById('jozie2').style.display='block'">
+              <span style="margin-top: 9vw"></span>
+              <span style="font-size: 1vw"></span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div id="Landscape">
+        <div class="img_wrap">
+          <div class="img_div">
+            <img id="land13" src="IMG_2217.JPG" style="object-fit: cover; width: 22vw; height: 22vw; cursor: pointer; margin: 0.3vw;">
+            <p class="cap" onclick="document.getElementById('jozie3').style.display='block'">
+              <span style="margin-top: 9vw"></span>
+              <span style="font-size: 1vw"></span>
+            </p>
+          </div>
+        </div>
+        <div class="img_wrap">
+          <div class="img_div">
+            <img id="land14" src="IMG_2228.JPG" style="object-fit: cover; width: 22vw; height: 22vw; cursor: pointer; margin: 0.3vw;">
+            <p class="cap" onclick="document.getElementById('natalie2').style.display='block'">
+              <span style="margin-top: 9vw">Guangzhou</span>
+              <span style="font-size: 1vw">China</span>
+            </p>
+          </div>
+        </div>
+        <div class="img_wrap">
+          <div class="img_div">
+            <img id="land15" src="IMG_2235.JPG" style="object-fit: cover; width: 22vw; height: 22vw; cursor: pointer; margin: 0.3vw;">
+            <p class="cap" onclick="document.getElementById('jozie4').style.display='block'">
+              <span style="margin-top: 9vw"></span>
+              <span style="font-size: 1vw"></span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div id="Landscape">
+        <div class="img_wrap">
+          <div class="img_div">
+            <img id="land16" src="IMG_2285.JPG" style="object-fit: cover; width: 22vw; height: 22vw; cursor: pointer; margin: 0.3vw;">
+            <p class="cap" onclick="document.getElementById('laguna').style.display='block'">
+              <span style="margin-top: 9vw"></span>
+              <span style="font-size: 1vw"></span>
+            </p>
+          </div>
+        </div>
+        <div class="img_wrap">
+          <div class="img_div">
+            <img id="land17" src="IMG_2290.JPG" style="object-fit: cover; width: 22vw; height: 22vw; cursor: pointer; margin: 0.3vw;">
+            <p class="cap" onclick="document.getElementById('tree').style.display='block'">
+              <span style="margin-top: 9vw"></span>
+              <span style="font-size: 1vw"></span>
+            </p>
+          </div>
+        </div>
+        <div class="img_wrap">
+          <div class="img_div">
+            <img id="land18" src="IMG_2370.JPG" style="object-fit: cover; width: 22vw; height: 22vw; cursor: pointer; margin: 0.3vw;">
+            <p class="cap" onclick="document.getElementById('amber').style.display='block'">
+              <span style="margin-top: 9vw"></span>
+              <span style="font-size: 1vw"></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 
+    <div class="imgModals" align="center">
+      <div id="cliff" class="modal" onclick="this.style.display='none'">
+        <div class="modal-content">
+          <span id="lan1Span"></span><img src="IMG_1538.JPG">
+        </div>
+      </div>
+      <div id="phone" class="modal" onclick="this.style.display='none'">
+        <div class="modal-content">
+          <span id="land2Span"></span><img src="IMG_1725.JPG">
+        </div>
+      </div>
+      <div id="purpleOcean" class="modal" onclick="this.style.display='none'">
+        <div class="modal-content">
+          <span id="land3Span"></span><img src="IMG_1731.JPG">
+        </div>
+      </div>
+      <div id="enrico" class="modal" onclick="this.style.display='none'">
+        <div class="modal-content">
+          <span id="land4Span"></span><img src="IMG_1851.JPG">
+        </div>
+      </div>
+      <div id="kids" class="modal" onclick="this.style.display='none'">
+        <div class="modal-content">
+          <span id="land5Span"></span><img src="IMG_2003.JPG">
+        </div>
+      </div>
+      <div id="surfCom" class="modal" onclick="this.style.display='none'">
+        <div class="modal-content">
+          <span id="land6Span"></span><img src="IMG_2006.JPG">
+        </div>
+      </div>
+      <div id="surfer" class="modal" onclick="this.style.display='none'">
+        <div class="modal-content">
+          <span id="land7Span"></span><img src="IMG_2013.JPG">
+        </div>
+      </div>
+      <div id="geisel" class="modal" onclick="this.style.display='none'">
+        <div class="modal-content">
+          <span id="land8Span"></span><img src="IMG_2145.JPG">
+        </div>
+      </div>
+      <div id="couple" class="modal" onclick="this.style.display='none'">
+        <div class="modal-content">
+          <span id="land9Span"></span><img src="IMG_2202.JPG">
+        </div>
+      </div>
+      <div id="jozie1" class="modal" onclick="this.style.display='none'">
+        <div class="modal-content">
+          <span id="land10Span"></span><img src="IMG_2211.JPG">
+        </div>
+      </div>
+      <div id="natalie1" class="modal" onclick="this.style.display='none'">
+        <div class="modal-content">
+          <span id="land11Span"></span><img src="IMG_2216.JPG">
+        </div>
+      </div>
+      <div id="jozie2" class="modal" onclick="this.style.display='none'">
+        <div class="modal-content">
+          <span id="land12Span"></span><img src="IMG_2217.JPG">
+        </div>
+      </div>
+      <div id="jozie3" class="modal" onclick="this.style.display='none'">
+        <div class="modal-content">
+          <span id="land13Span"></span><img src="IMG_2228.JPG">
+        </div>
+      </div>
+      <div id="natalie2" class="modal" onclick="this.style.display='none'">
+        <div class="modal-content">
+          <span id="land14Span"></span><img src="IMG_2235.JPG">
+        </div>
+      </div>
+      <div id="jozie4" class="modal" onclick="this.style.display='none'">
+        <div class="modal-content">
+          <span id="land15Span"></span><img src="IMG_2285.JPG">
+        </div>
+      </div>
+      <div id="laguna" class="modal" onclick="this.style.display='none'">
+        <div class="modal-content">
+          <span id="land16Span"></span><img src="IMG_2290.JPG">
+        </div>
+      </div>
+      <div id="tree" class="modal" onclick="this.style.display='none'">
+        <div class="modal-content">
+          <span id="land17Span"></span><img src="IMG_2370.JPG">
+        </div>
+      </div>
+      <div id="amber" class="modal" onclick="this.style.display='none'">
+        <div class="modal-content">
+          <span id="land18Span"></span><img src="IMG_2394.JPG">
+      </div>
+    </div>
+-->
+  </section>
 
 </body>	
 </html>
