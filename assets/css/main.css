@@ -37,6 +37,11 @@ ol, ul {
 	list-style: none;
 }
 
+li {
+	list-style-type: none;
+	text-align: center;
+}
+
 blockquote, q {
 	quotes: none;
 }
@@ -2067,8 +2072,8 @@ input, select, textarea {
 	label {
 		color: #555;
 		display: block;
-		font-size: 0.9em;
-		font-weight: 400;
+		font-size: 1em;
+		font-weight: 800;
 		margin: 0 0 1em 0;
 	}
 
