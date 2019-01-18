@@ -2,10 +2,10 @@
 <html>
 	<head>
 		<title>Gendarme Docena</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css"/></noscript>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127545469-1"></script>
@@ -15,9 +15,13 @@
   gtag('js', new Date());
   gtag('config', 'UA-127545469-1');
 </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	</head>
 
 	<body class="is-preload">
+
+		<!-- Top button -->
+		<a id="back2Top" title="Back to top" href="#">&#8593;</a>
 
 		<!-- Header -->
 			<section id="header">
@@ -25,9 +29,10 @@
 				<div class="inner">
 					<br/>
 					<br/>
+					<br/>
 					<span class="icon major fa-cloud"></span>
-					<h1>Hey there, I'm <strong>Gendarme</strong> (jen-darrm)!<br/></h1>
-					<p>I do photography, user experience research, and frontend web development.<br/>
+					<h1><strong>GENDARME DOCENA</strong><br/></h1>
+					<p>Photographer | UX Researcher | Web Developer<br/>
 					</p>
 					<ul class="actions special">
 
@@ -51,7 +56,7 @@
 								<h2>About Myself
 								</h2>
 							</header>
-							<p>Identifying user needs is one of my strongest skills, reflecting my curiosity, and the ways of understanding how humans interact with technology. My role is to investigate targeted communities who need feasible and improved products for their everyday life!  
+							<p>Identifying user needs is one of my strongest skills, reflecting my curiosity, and the ways of understanding how humans interact with technology. My role is to investigate those who need feasible and improved products for their everyday life!  
 							</p>
 							<br/>
 							<br/>
@@ -113,7 +118,6 @@
 				<ul>
 					<h2><a href="https://www.google.com/gmail">gendarmedocena@gmail.com</a></h2>
 				<li><a href="https://drive.google.com/file/d/1tEi6aZR0i3yDXG4zIuVtLiIvfcmo48sU/view?usp=sharing" class="button scrolly">Resume</a>
-				<a href="#header" class="button scrolly">Back to Top</a></li>
 				</ul>
 				
 				<ul class="icons">
@@ -126,6 +130,27 @@
 					<li>&copy; Gendarme Docena</li>
 				</ul>
 			</section>
+
+<script>
+
+$(window).scroll(function() { 
+	var height = $(window).scrollTop();
+	if (height > 600) {
+		$("#back2Top").fadeIn();
+	} else {
+		$('#back2Top').fadeOut();
+	}
+});
+
+$(document).ready(function() {
+	$("#back2Top").clikc(function(event) {
+		event.preventDefualt();
+		$("html, body").animate({ scrollTop: 0}, "slow");
+		return false;
+	});
+});
+
+</script>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>

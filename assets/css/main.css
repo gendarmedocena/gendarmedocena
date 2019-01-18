@@ -33,6 +33,28 @@ body {
 	line-height: 1;
 }
 
+#back2Top { 
+	width: 40px;
+	line-height: 40px;
+	overflow: hidden;
+	z-index: 999;
+	display: none;
+	cursor: pointer;
+	position: fixed;
+	bottom: 50px;
+	right: 25px;
+	background-color: #DDD;
+	color: #000;
+	text-align: center;
+	text-decoration: none;	
+	
+ }
+
+ #back2Top: hover {
+ 	background-color: #DDF;
+ 	color: #ffffff;
+ }
+
 ol, ul {
 	list-style: none;
 }
@@ -3417,7 +3439,7 @@ input, select, textarea {
 			input[type="reset"],
 			input[type="button"],
 			.button {
-				padding: 0;
+				padding: -1px;
 			}
 
 		/* Main */
