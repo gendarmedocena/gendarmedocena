@@ -1,12 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
 
-/*
-	Photon by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -23,18 +17,19 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;}
+	display: block;
+}
 
 body {
 	line-height: 1;
 }
 
 #back2Top { 
-	width: 40px;
 	line-height: 40px;
 	overflow: hidden;
 	z-index: 999;
@@ -42,7 +37,23 @@ body {
 	cursor: pointer;
 	position: fixed;
 	bottom: 50px;
-	right: 25px;
+	right: 20px;
+	background-color: #DDD;
+	color: #000;
+	text-align: center;
+	text-decoration: none;	
+	
+ }
+
+ #back2Topp { 
+	line-height: 40px;
+	overflow: hidden;
+	z-index: 999;
+	display: none;
+	cursor: pointer;
+	position: fixed;
+	bottom: 50px;
+	right: 20px;
 	background-color: #DDD;
 	color: #000;
 	text-align: center;
@@ -51,8 +62,11 @@ body {
  }
 
  #back2Top: hover {
- 	background-color: #DDF;
- 	color: #ffffff;
+ 	background-color: rgba(144, 144, 144, 0.0175);
+ }
+
+  #back2Topp: hover {
+ 	background-color: rgba(144, 144, 144, 0.0175);
  }
 
 ol, ul {
@@ -62,7 +76,7 @@ ol, ul {
 li {
 	list-style-type: none;
 	text-align: center;
-	padding-top: 4em;
+	padding-top: 2em;
 }
 
 blockquote, q {
@@ -3114,7 +3128,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 6em 0 6em 0 ;
+		padding: 12em 0 13em 0;
 		background-color: #6f8e9b;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
@@ -3205,6 +3219,7 @@ input, select, textarea {
 
 		#footer .icons {
 			margin: 0;
+			padding-top: 3em;
 		}
 
 		#footer .copyright {
