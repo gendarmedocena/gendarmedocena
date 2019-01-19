@@ -62,6 +62,7 @@ ol, ul {
 li {
 	list-style-type: none;
 	text-align: center;
+	padding-top: 2em;
 }
 
 blockquote, q {
@@ -2412,10 +2413,12 @@ input, select, textarea {
 		list-style: disc;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
+		padding-bottom: 3em;
 	}
 
 		ul li {
 			padding-left: 0.5em;
+			padding-top: 1em;
 		}
 
 		ul.alt {
@@ -3054,6 +3057,7 @@ input, select, textarea {
 			opacity: 1;
 			position: relative;
 			z-index: 1;
+			padding-bottom: 2.5em;
 		}
 
 			#header .inner .actions {

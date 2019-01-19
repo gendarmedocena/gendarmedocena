@@ -30,15 +30,11 @@
 					<br/>
 					<br/>
 					<br/>
-					<span class="icon major fa-cloud"></span>
+					<span class="icon major fa-laptop"></span>
 					<h1><strong>GENDARME DOCENA</strong><br/></h1>
 					<p>Photographer | UX Researcher | Web Developer<br/>
 					</p>
-					<ul class="actions special">
-
 						<li><a href="#three" class="button scrolly">View My Work</a></li>
-
-					</ul>
 					<br/>
 					<br/>
 					<br/>
@@ -75,15 +71,12 @@
 		<!-- Work/Experience -->
 			<section id="three" class="main style2">
 				<div class="container">
-						<center><h2>Portfolio</h2></center>
-					
+					<center><h2>Portfolio</h2></center>
 					<center><p>Check out my work experience, photos, and design classes I took!</p></center>
-
 					<center><div class="row gtr-150">
 						<div class="col-6 col-12-medium">
 							<span class="image fit"><a href="https://www.instagram.com/gendarme.jpg/"><img src="images/blueSurfers.JPG" alt="" /></a></span>
 							<h3>Photography</h3>
-							
 							<ul class="actions special">
 								<li><a href="https://www.instagram.com/gendarme.jpg/" class="button">View My Instagram</a></li>
 							</ul>
@@ -91,7 +84,6 @@
 						<div class="col-6 col-12-medium">
 							<span class="image fit"><a href="mywork.html"><img src="images/designfronttt.jpg" alt="" /></a></span>
 							<h3>Design // Web Development</h3>
-							
 							<ul class="actions special">
 								<li><a href="mywork.html" class="button">View My Work</a></li>
 							</ul>
@@ -135,7 +127,7 @@
 
 $(window).scroll(function() { 
 	var height = $(window).scrollTop();
-	if (height > 600) {
+	if (height > 500) {
 		$("#back2Top").fadeIn();
 	} else {
 		$('#back2Top').fadeOut();
@@ -143,7 +135,7 @@ $(window).scroll(function() {
 });
 
 $(document).ready(function() {
-	$("#back2Top").clikc(function(event) {
+	$("#back2Top").click(function(event) {
 		event.preventDefualt();
 		$("html, body").animate({ scrollTop: 0}, "slow");
 		return false;
