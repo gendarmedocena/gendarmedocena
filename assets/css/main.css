@@ -69,6 +69,11 @@ body {
  	background-color: rgba(144, 144, 144, 0.0175);
  }
 
+.layout-style-left #topNav {
+	float: right;
+}
+
+
 ol, ul {
 	list-style: none;
 }

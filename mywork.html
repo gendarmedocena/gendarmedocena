@@ -17,13 +17,47 @@
 </script>
 	</head>
 	
-	<body class="is-preload">
+	<body class="is-preload layout-style-left">
 
 		<!-- Top button -->
 			<a id="back2Topp" title="Back to top" href="#workHeader" class="button scrolly">&#8593;</a>
 
 			<section id="workHeader" class="main style1 special">
 				<div class="container">
+
+				<header id="">
+      <script>
+        Y.use('squarespace-ui-base', function(Y) {
+          Y.all("#header .logo, #header .logo-subtitle").each(function (text) {
+            text.plug(Y.Squarespace.TextShrink, {
+              parentEl: Y.one('#header'),
+              triggerWidth: 750
+            });
+          });
+        });
+
+        // Show spinner on page load if loading bookmarked url
+        if (window.location.hash && window.location.hash !== '#') {
+          document.querySelector('body').className += ' index-loading';
+        }
+      </script>
+      <div id="topNav" data-content-field="navigation">
+<nav class="main-nav">
+  <ul>
+      <li class="index-collection active-link">    
+            <a href="/">Portfolio</a>
+      </li>
+      <li class="">
+            <a href="/s/StevenChen_Resume-5scx.pdf" target="_blank">Resume</a>
+      </li>
+      <li class="page-collection">
+            <a href="/about/">About</a>
+      </li>
+  </ul>
+</nav>
+</div>
+
+    </header>
 					<header class="major">
 						<h2>UX Design // Web Development</h2>
 					</header>
@@ -140,12 +174,12 @@
 			</section>
 
 		<!-- Contacts -->
+
 			<section id="footer">
-				<h2>I'm more than just a photographer, researcher, and a developer. <br/>
-				Get to know me!</h2>
+				<h2>Contact</h2>
 				<h3>Bay Area | San Diego, CA</h3>
 				
-				<li2><a href="https://drive.google.com/file/d/1tEi6aZR0i3yDXG4zIuVtLiIvfcmo48sU/view?usp=sharing" class="button">Resume</a></li2>
+				<li2><a href="https://drive.google.com/file/d/1H7vvIu3IfS8MH10HKiA1dEGJUC5PHn6-/view?usp=sharing" class="button" target="blank">Resume</a></li2>
 				<ul class="icons">
 					<li><a href="https://www.facebook.com/gendarmedocena" class="icon alt fa-facebook" title="https://www.facebook.com/gendarmedocena"><span class="label">Facebook</span></a></li>
 					<li><a href="https://www.instagram.com/gendarmedocena/" class="icon alt fa-instagram" title="https://www.instagram.com/gendarmedocena/"><span class="label">Instagram</span></a></li>
@@ -155,6 +189,7 @@
 					<li><a href="https://www.google.com/gmail" class="icon alt fa-envelope" title="gendarmedocena@gmail.com"></a></li>
 				</ul>
 			</section>
+
 
 <script>
 
