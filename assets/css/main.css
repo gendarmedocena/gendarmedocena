@@ -25,6 +25,37 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+ul.navbar-nav {
+  align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #6f8e9b;
+}
+
+li.list {
+  float: right;
+}
+
+li.list a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 11px 13px;
+  text-decoration: none;
+}
+
+li.list a:hover:not(.active) {
+  background-color: #6f8e9b;
+}
+
+li.list a.active {
+  color: white;
+  background-color: #6f8e9b;
+}
+
 body {
 	line-height: 1;
 }
