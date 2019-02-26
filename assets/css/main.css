@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 
 .text {
   color: white;
+  font-style: bold;
   font-size: 23px;
   position: absolute;
   top: 50%;
@@ -54,10 +55,10 @@ footer, header, hgroup, menu, nav, section {
   background-color: #33333333;
 }
 
+
 ul.navbar-nav {
   align: center;
   list-style-type: none;
-  margin: 0;
   padding: 0;
   overflow: hidden;
   border: 1px solid #e7e7e7;
@@ -3544,7 +3545,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 4em 2em 4em 2em ;
+				padding: 0em 2em 4em 2em ;
 			}
 
 				#header br {
