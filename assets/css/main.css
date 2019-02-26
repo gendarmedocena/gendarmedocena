@@ -25,10 +25,14 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+.smallContainer:hover .overlay {
+  opacity: 1;
+}
+
 .text {
   color: white;
-  font-size: 20px;
-  position: relative;
+  font-size: 23px;
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -219,7 +223,9 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
+			/*
 			color: #6bd4c8;
+			*/
 			font-weight: bold;
 		}
 
@@ -2472,7 +2478,11 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
+				opacity: 0.7;
+			}
 
+			.image.fit img:hover {
+				opacity: 0.3;
 			}
 
 /* List */
