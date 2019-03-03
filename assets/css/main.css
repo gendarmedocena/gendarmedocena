@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 
 .text {
   color: white;
-  font-style: bold;
+  font-weight: bold;
   font-size: 23px;
   position: absolute;
   top: 50%;
@@ -63,7 +63,7 @@ ul.navbar-nav {
   padding: 0;
   overflow: hidden;
   border: 1px solid #e7e7e7;
-  background-color: #6f8e9b;
+  background-color: #6F8FC2;
 }
 
 li.list {
@@ -79,12 +79,12 @@ li.list a {
 }
 
 li.list a:hover:not(.active) {
-  background-color: #6f8e9b;
+  background-color: #6F8FC2;
 }
 
 li.list a.active {
   color: white;
-  background-color: #6f8e9b;
+  background-color: #6F8FC2;
 }
 
 body {
@@ -242,6 +242,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 1em 0;
+		color: black;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -263,6 +264,7 @@ input, select, textarea {
 	h2 {
 		font-size: 2em;
 		line-height: 1.35em;
+		font-weight: bold;
 	}
 
 	h3 {
@@ -2918,11 +2920,10 @@ input, select, textarea {
 		}
 
 		.main.style2 {
-			background-color: #333;
+			background-color: #FA7E4F;
 			color: rgba(255, 255, 255, 0.75);
-			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
-			background-size: auto,							cover;
+			background-attachment: fixed, fixed;
+			background-size: auto, cover;
 		}
 
 			.main.style2 a {
@@ -2935,6 +2936,7 @@ input, select, textarea {
 
 			.main.style2 h1, .main.style2 h2, .main.style2 h3, .main.style2 h4, .main.style2 h5, .main.style2 h6, .main.style2 strong, .main.style2 b {
 				color: #ffffff;
+				font-weight: bold;
 			}
 
 			.main.style2 header p {
@@ -3009,7 +3011,7 @@ input, select, textarea {
 
 	#header {
 		padding: 0em 0 12em 0 ;
-		background-color: #6f8e9b;
+		background-color: #6F8FC2;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed, fixed, fixed;
 		background-position: top left, center center, center center;
@@ -3029,6 +3031,7 @@ input, select, textarea {
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6, #header strong, #header b {
 			color: #ffffff;
+			font-weight: bold;
 		}
 
 		#header header p {
@@ -3046,6 +3049,7 @@ input, select, textarea {
 		#header .button {
 			box-shadow: inset 0 0 0 1px #ffffff;
 			color: #ffffff !important;
+			font-weight: bold;
 		}
 
 			#header input[type="submit"]:hover,
@@ -3071,7 +3075,7 @@ input, select, textarea {
 			#header .button.primary {
 				background-color: #ffffff;
 				box-shadow: inset 0 0 0 1px #ffffff !important;
-				color: #6f8e9b !important;
+				color: #6F8FC2 !important;
 			}
 
 				#header input[type="submit"].primary:hover,
@@ -3105,6 +3109,8 @@ input, select, textarea {
 
 		#header p {
 			margin: 1em 0 0 0;
+			font-weight: bold;
+			color: #ffffff;
 		}
 
 		
@@ -3207,7 +3213,7 @@ input, select, textarea {
 
 	#footer {
 		padding: 5em 0 2em 0;
-		background-color: #6f8e9b;
+		background-color: #ab7e1e;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed, fixed, fixed;
 		background-position: top left, center center, center center;
@@ -3225,6 +3231,7 @@ input, select, textarea {
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b {
 			color: #ffffff;
+			font-weight: bold;
 		}
 
 		#footer header p {
@@ -3242,6 +3249,7 @@ input, select, textarea {
 		#footer .button {
 			box-shadow: inset 0 0 0 1px #ffffff;
 			color: #ffffff !important;
+			font-weight: bold;
 		}
 
 			#footer input[type="submit"]:hover,
@@ -3267,7 +3275,7 @@ input, select, textarea {
 			#footer .button.primary {
 				background-color: #ffffff;
 				box-shadow: inset 0 0 0 1px #ffffff !important;
-				color: #6f8e9b !important;
+				color: #6F8FC2 !important;
 			}
 
 				#footer input[type="submit"].primary:hover,
