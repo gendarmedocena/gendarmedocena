@@ -231,7 +231,7 @@ input, select, textarea {
 			font-weight: bold;
 		}
 
-	strong, b {
+	strong {
 		color: #555;
 		font-weight: 400;
 	}
