@@ -6,6 +6,7 @@
 		<title>Gendarme Docena | Daily UI</title>
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="assets/css/main.css"/>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css"/></noscript>
 
@@ -20,6 +21,42 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	</head>
 
+	<style>
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.image {
+	display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+	position: absolute;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.text {
+
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.container {
+	position: relative;
+}
+
+</style>
+
 	<body class="is-preload">
 
 		<!-- Top button -->
@@ -32,32 +69,41 @@
 		  <li class="list"><a class="active scrolly" href="#about">About</a></li>
 		</ul>
 
-
-<section id="about" class="main style1">
-				<div class="container">
-					<div class="row gtr-150">
-						<div class="col-6 col-12-medium">
-							<header class="major">
-								<h2>Daily UI
-								</h2>
-							</header>
-							<p>     
-							</p>
-							<br/>
-							<br/>
-							<br/>
-							<br/>
-							<br/>
-						</div>
-						<div class="col-6 col-12-medium imp-medium">
-							<span class="image fit2"><img src="images/gradgrad.jpg" alt="" style="display: block; margin: 0 0 2em 0; width: 100%;"/></span>
-						</div>
-					</div>
-				</div>
-			</section>
+		<section id="portfolio" class="main style2">
+<center><h2>Portfolio<br/></h2></center>
+<center>
+<div class="row gtr-150">
 
 
+<div class="col-6 col-12-medium" style="font-weight: bold; font-color: #ffffff;padding-left: 6em; padding-bottom: 1.5em;">Photography
+<div class="container">
+	<a href="https://www.instagram.com/gendarme.jpg/" target="blank"><img src="images/blueSurfers.JPG" alt="" class="image">
+		<div class="overlay">
+			<div class="text">Photography</div>
+		</div>
+	</a>
+	</div>
+	</div>
 
+	<div class="col-6 col-12-medium" style="font-weight: bold; font-color: #ffffff;">Daily UI
+		<div class="container">
+			<img src="images/blueSurfers.JPG" alt="" class="image">
+			<div class="overlay">
+				<div class="text">Daily UI</div>
+</div>
+</div>
+</div>
+
+	<div class="col-6 col-12-medium">
+		<div class="container">
+			<img src="images/blueSurfers.JPG" alt="" class="image">
+			<div class="overlay">
+				<div class="text">Daily UI</div>
+</div>
+</div>
+</div>
+
+</div>
 
 
 

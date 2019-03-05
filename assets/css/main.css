@@ -55,6 +55,13 @@ footer, header, hgroup, menu, nav, section {
   background-color: #33333333;
 }
 
+.pull-left {
+	float:left;
+	font-size: 1.5em;
+	padding-left: 13px;
+	padding-top: 20px;
+}
+
 
 ul.navbar-nav {
   align: center;
