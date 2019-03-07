@@ -20,6 +20,49 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	</head>
 
+	<style>
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0.5, 0, 0.8);
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  padding-top: 1em;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+</style>
+
 	<body class="is-preload">
 
 		<!-- Top button -->
@@ -79,73 +122,117 @@
 			</section>
 
 		<!-- Work/Experience -->
-			<section id="portfolio" class="main style2">
+<section id="portfolio" class="main style2">
+<center><h2>Portfolio<br/></h2></center>
+<center>
+<div class="row gtr-150">
 
-				<div class="container">
-					<center><h2>Portfolio<br/>
-					</h2></center>
-					<center>
 
-						<div class="image fit">
-						<div class="row gtr-150">
-							
-						<div class="col-6 col-12-medium">
-							<div class="smallContainer">
-							<span class="image fit"><a href="https://www.instagram.com/gendarme.jpg/" target="blank"><img src="images/blueSurfers.JPG">
-								
-							<div class="text">Photography</div></span></a></div>
-	
-						</div>
+<div class="col-6 col-12-medium" style="font-weight: bold; color: white; padding-bottom: 3em;">Photography
+<div class="container">
+	<a href="https://www.instagram.com/gendarme.jpg/" target="blank"><img src="images/blueSurfers.JPG" alt="" class="image">
+		<div class="overlay">
+			<div class="text">Landscape | Portrait
+				<br/>
+					<hr>
+				Photographer</div>
+			
+		</div>
+	</a>
+	</div>
+	</div>
 
-						<div class="col-6 col-12-medium">
-							<div class="smallContainer">
-							<span class="image fit"><a href="https://www.instagram.com/gendarme.jpg/" target="blank"><img src="images/blueSurfers.JPG">
-								
-							<div class="text">Daily UI</div></span></a></div>
-	
-						</div>
+	<div class="col-6 col-12-medium" style="font-weight: bold; color: white; padding-bottom: 3em;">Daily UI
+		<div class="container">
+			<a href="dailyUI.html" target="blank"><img src="images/blueSurfers.JPG" alt="" class="image">
+			<div class="overlay">
+				<div class="text">Exploring my creativity and design challenges through different visual styles.
+					<br/>
+					<hr>
+				UI Designer</div>
+</div>
+</a>
+</div>
+</div>
 
-						<div class="col-6 col-12-medium">
-							<div class="smallContainer">
-							<span class="image fit"><a href="interactiondesign.html" target="blank"><img src="images/manageMotif.png">
-							<div class="text">ManageMotif</div>
-							</span></a>
-						
-						</div>
-					</div>
+	<div class="col-6 col-12-medium" style="font-weight: bold; color: white; padding-bottom: 3em;">ManageMotif
+		<div class="container">
+			<a href="interactiondesign.html" target="blank"><img src="images/manageMotif.png" alt="" class="image">
+			<div class="overlay">
+				<div class="text">An interaction design project that provides users to schedule their activities based on time and emotion.	
+					<br/>
+					<hr>
+				UX Designer</div>
+</div>
+</a>
+</div>
+</div>
 
-						<div class="col-6 col-12-medium">
-							<div class="smallContainer">
-							<span class="image fit"><a href="https://drive.google.com/file/d/1bp_DisR8beMILSaTuCKJ11B0Y-B7yHPi/view?usp=sharing" target="blank"><img src="images/engD.png">
-							<div class="text">Global Ties</div>
-							</span></a>
-						</div>
-					</div>
+<div class="col-6 col-12-medium" style="font-weight: bold; color: white; padding-bottom: 3em;">Global Ties
+		<div class="container">
+			<a href="interactiondesign.html" target="blank"><img src="images/engD.png" alt="" class="image">
+			<div class="overlay">
+				<div class="text">An interactive web page for graduate engineering students who are seeking full time careers.
+					<hr>
+				UX Designer</div>
+</div>
+</a>
+</div>
+</div>
 
-						<div class="col-6 col-12-medium">
-							<div class="smallContainer">
-							<span class="image fit"><a href="https://medium.com/@50shadesofunicorn50" target="blank"><img src="images/foodylytics.jpg"/>
-								<div class="text">Foodylytics</div></span></a>
-							</div>
-						</div>
+<div class="col-6 col-12-medium" style="font-weight: bold; color: white; padding-bottom: 3em;">Foodylytics
+		<div class="container">
+			<a href="https://drive.google.com/file/d/1bp_DisR8beMILSaTuCKJ11B0Y-B7yHPi/view?usp=sharing" target="blank"><img src="images/foodylytics.jpg" alt="" class="image">
+			<div class="overlay">
+				<div class="text">A nutritional project designed for senior citizens to keep track of their daily eating habits.
+					<br/>
+					<hr>
+				UX Designer </div>
+</div>
+</a>
+</div>
+</div>
 
-						<div class="col-6 col-12-medium">
-							<div class="smallContainer">
-							<span class="image fit"><a href="" target="blank"><img src="images/banner-monsters.png"/>
-								<div class="text">ICMonstar</div></span></a>
-							</div>
-						</div>
+<div class="col-6 col-12-medium" style="font-weight: bold; color: white; padding-bottom: 3em;">The Nozzle Struggle
+		<div class="container">
+			<a href="https://drive.google.com/file/d/1SVaCdIH2MdUhwgtfu1iYT6cpIH6KRSQ7/view?usp=sharing" target="blank"><img src="images/nozzleStruggle.PNG" alt="" class="image">
+			<div class="overlay">
+				<div class="text">A class project introducing the field of design.
+					<br/>
+						<hr>
+					UX Researcher</div>
+</div>
+</a>
+</div>
+</div>
 
-						<div class="col-6 col-12-medium">
-							<div class="smallContainer">
-							<span class="image fit"><a href="https://drive.google.com/file/d/1SVaCdIH2MdUhwgtfu1iYT6cpIH6KRSQ7/view?usp=sharing" target="blank"><img src="images/nozzleStruggle.PNG"/>
-								<div class="text">The Nozzle Struggle</div></span></a>
-							</div>
-						</div>
+<div class="col-6 col-12-medium" style="font-weight: bold; color: white; padding-bottom: 3em;">ICMonstar
+		<div class="container">
+			<a href="" target="blank"><img src="images/banner-monsters.png" alt="" class="image">
+			<div class="overlay">
+				<div class="text">A website project partnering up with one of San Diego's popular dessert restaurants.
+						<br/>
+							<hr>
+						UX Consultant</div>
+</div>
+</a>
+</div>
+</div>
 
-					</center>
-					</div>
-				</div>
+<div class="col-6 col-12-medium" style="font-weight: bold; color: white; padding-bottom: 3em;">Random Quote Generator
+		<div class="container">
+			<a href="https://codepen.io/gendarme/pen/eRNVKL" target="blank"><img src="images/randomQuote.png" alt="" class="image">
+			<div class="overlay">
+				<div class="text">A functional website representing my favorite quotes.
+					<br/>
+						<hr>
+					Role: Web Developer</div>
+</div>
+</a>
+</div>
+</div>
+
+</div>
 			</section>
 
 		<!-- Contacts -->

@@ -22,25 +22,35 @@
 	</head>
 
 	<style>
-.container:hover .overlay {
-  opacity: 1;
+.container {
+  position: relative;
+  width: 100%;
 }
 
 .image {
-	display: block;
+  display: block;
   width: 100%;
   height: auto;
 }
 
 .overlay {
-	position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: rgba(0, 0.5, 0, 0.8);
+}
+
+.container:hover .overlay {
+  opacity: 1;
 }
 
 .text {
-
   color: white;
   font-size: 20px;
   position: absolute;
@@ -49,12 +59,8 @@
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  text-align: center;
 }
-
-.container {
-	position: relative;
-}
-
 </style>
 
 	<body class="is-preload">
@@ -75,31 +81,107 @@
 <div class="row gtr-150">
 
 
-<div class="col-6 col-12-medium" style="font-weight: bold; font-color: #ffffff;padding-left: 6em; padding-bottom: 1.5em;">Photography
+<div class="col-6 col-12-medium" style="font-weight: bold; color: white; padding-bottom: 3em;">Photography
 <div class="container">
 	<a href="https://www.instagram.com/gendarme.jpg/" target="blank"><img src="images/blueSurfers.JPG" alt="" class="image">
 		<div class="overlay">
-			<div class="text">Photography</div>
+			<div class="text">Landscape | Portrait
+				<br/>
+					<hr>
+				Role: Photographer</div>
+			
 		</div>
 	</a>
 	</div>
 	</div>
 
-	<div class="col-6 col-12-medium" style="font-weight: bold; font-color: #ffffff;">Daily UI
+	<div class="col-6 col-12-medium" style="font-weight: bold; color: white; padding-bottom: 3em;">Daily UI
 		<div class="container">
-			<img src="images/blueSurfers.JPG" alt="" class="image">
+			<a href="dailyUI.html" target="blank"><img src="images/blueSurfers.JPG" alt="" class="image">
 			<div class="overlay">
-				<div class="text">Daily UI</div>
+				<div class="text">Exploring my creativity and design challenges through different visual styles.
+					<br/>
+					<hr>
+				Role: UI Designer, Visual Designer</div>
 </div>
+</a>
 </div>
 </div>
 
-	<div class="col-6 col-12-medium">
+	<div class="col-6 col-12-medium" style="font-weight: bold; color: white; padding-bottom: 3em;">ManageMotif
 		<div class="container">
-			<img src="images/blueSurfers.JPG" alt="" class="image">
+			<a href="interactiondesign.html" target="blank"><img src="images/blueSurfers.JPG" alt="" class="image">
 			<div class="overlay">
-				<div class="text">Daily UI</div>
+				<div class="text">An interaction design project that provides users to schedule their activities based on time and emotion.	
+					<br/>
+					<hr>
+				Role: UX Researcher, UX Designer</div>
 </div>
+</a>
+</div>
+</div>
+
+<div class="col-6 col-12-medium" style="font-weight: bold; color: white; padding-bottom: 3em;">Global Ties
+		<div class="container">
+			<a href="interactiondesign.html" target="blank"><img src="images/blueSurfers.JPG" alt="" class="image">
+			<div class="overlay">
+				<div class="text">An interactive web page for recent graduate engineering students who are seeking full time careers.
+					<br/>
+					<hr>
+				Role: UX Designer, Web Developer</div>
+</div>
+</a>
+</div>
+</div>
+
+<div class="col-6 col-12-medium" style="font-weight: bold; color: white; padding-bottom: 3em;">Foodylytics
+		<div class="container">
+			<a href="interactiondesign.html" target="blank"><img src="images/blueSurfers.JPG" alt="" class="image">
+			<div class="overlay">
+				<div class="text">A nutritional project designed for senior citizens to keep track of their daily eating habits.
+					<br/>
+					<hr>
+				Role: UX Researcher, UX Designer </div>
+</div>
+</a>
+</div>
+</div>
+
+<div class="col-6 col-12-medium" style="font-weight: bold; color: white; padding-bottom: 3em;">The Nozzle Struggle
+		<div class="container">
+			<a href="interactiondesign.html" target="blank"><img src="images/blueSurfers.JPG" alt="" class="image">
+			<div class="overlay">
+				<div class="text">A class project introducing the field of design.
+					<br/>
+						<hr>
+					Role: UX Researcher</div>
+</div>
+</a>
+</div>
+</div>
+
+<div class="col-6 col-12-medium" style="font-weight: bold; color: white; padding-bottom: 3em;">ICMonstar
+		<div class="container">
+			<a href="interactiondesign.html" target="blank"><img src="images/blueSurfers.JPG" alt="" class="image">
+			<div class="overlay">
+				<div class="text">A website project partnering up with one of San Diego's popular dessert restaurants.
+						<br/>
+							<hr></div>
+</div>
+</a>
+</div>
+</div>
+
+<div class="col-6 col-12-medium" style="font-weight: bold; color: white; padding-bottom: 3em;">Random Quote Generator
+		<div class="container">
+			<a href="interactiondesign.html" target="blank"><img src="images/blueSurfers.JPG" alt="" class="image">
+			<div class="overlay">
+				<div class="text">A functional website representing my favorite quotes.
+					<br/>
+						<hr>
+					Role: Web Developer</div>
+</div>
+</a>
 </div>
 </div>
 
