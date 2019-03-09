@@ -1571,10 +1571,6 @@ input, select, textarea {
 					margin-left: -3em;
 				}
 
-					.row.gtr-150 > * {
-						padding: 0 0 0 3em;
-					}
-
 					.row.gtr-150.gtr-uniform {
 						margin-top: -3em;
 					}
@@ -3188,7 +3184,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 5em 0 2em 0;
+		padding-top: 2em;
 		background-color: #8491b2;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed, fixed, fixed;
@@ -3207,7 +3203,6 @@ input, select, textarea {
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b {
 			color: #ffffff;
-			font-weight: bold;
 		}
 
 		#footer header p {
