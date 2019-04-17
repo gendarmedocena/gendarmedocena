@@ -78,9 +78,9 @@ body {
 	display: none;
 	cursor: pointer;
 	position: fixed;
-	bottom: 50px;
-	right: 20px;
-	background-color: #DDD;
+	bottom: 13em;
+	right: 0.5em;
+	background-color: #F5F0D6;
 	color: #000;
 	text-align: center;
 	text-decoration: none;	
@@ -222,6 +222,7 @@ input, select, textarea {
 	p {
 		margin: 0 0 1em 0;
 		color: black;
+		font-weight: bolder;
 	}
 
 	h1, h3, h4, h5, h6 {
@@ -242,8 +243,8 @@ input, select, textarea {
 
 	h2 {
 		font-size: 2em;
-		line-height: 1.35em;
 		font-weight: bold;
+		padding-bottom: 0.75em;
 	}
 
 	h3 {
@@ -595,7 +596,7 @@ input, select, textarea {
 		}
 
 			.row.gtr-150 > * {
-				padding: 0 0 0 3em;
+				padding: 2em 0 0 3em;
 			}
 
 			.row.gtr-150.gtr-uniform {
@@ -2881,7 +2882,7 @@ input, select, textarea {
 		}
 
 		.main.style2 {
-			background-color: #FFA095;
+			background-color: #D2B499;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed, fixed;
 			background-size: auto, cover;
@@ -3264,7 +3265,7 @@ input, select, textarea {
 
 		#footer .icons {
 			margin: 0;
-			padding-top: 3em;
+			padding-top: 2em;
 		}
 
 		#footer .copyright {
