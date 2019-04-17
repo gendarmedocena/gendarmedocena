@@ -20,68 +20,45 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	</head>
 <style>
-/* Reset */
- 
 
-
-#primary{
-    max-width: 650px;
-    margin: 0 auto;
+#img {
+	width: 100%;
 }
+
+.wrap {
+	margin: 0 auto;
+	padding: 1em;
+}
+ 		
 </style>
-	<body class="is-preload">
+	<body>
 
 		<!-- Top button -->
 		<a id="back2Top" title="Back to top" href="#header" class="button scrolly">&#8679;</a>
 
 		<!-- Header -->
-			<section id="header">
-				<div class="inner">
+			<section>
+				<div>
 		<!-- Nav Bar --> 
-				<ul class="navbar-nav">
-					<a href="index.html" class="pull-left">G/D</a>
-
-		  <li class="list"><a class="active scrolly" href="#footer">Contact</a></li>
-
+				<ul class="navbar">
+					<a href="index.html" class="navbar-missions">G/D</a>
+		  <li style="float: right;"><a class="active scrolly" href="#footer">Contact</a></li>
 		</ul>
-					<br/>
-					<br/>
-					<br/>
-					<span class="icon major fa-laptop"></span>
-					<h1><strong>Hack4Missions</strong><br/></h1>
-					<h1> Role: UX Designer</h1>
-					<p>I spent the past winter participating in <strong><ins><a href="https://urbana.org/hack4missions" target="blank">Hack4Missions</a></ins></strong>, a hackathon where I teamed up and used design thinking to build mission organizations. </p>
-						<li><a href="#about" class="button scrolly">View Work</a></li>
-					<br/>
-					<br/>
-					<br/>
-					<br/>	
-				</div>
-			</section>
-
+				
 <div id="about">
-        <div id="header" class="site-header">
-            <div class="wrap" style="margin: 0 auto;
-    padding: 1em;">
- 
-                <div id="branding" role="banner">
-                    <p class="site-title"><a href="http://example.com">Site Title</a></p>
-                    <p class="site-description">Just another WordPress site...</p>
-                </div><!--#branding-->
- 
-            </div><!--.wrap-->
-        </div><!--#header-->
  
         <div id="main">
-            <div class="wrap" style="margin: 0 auto;
-    padding: 1em;">
-                <div id="primary">
-                    <img src="images/wycliffeTeam.JPG">
+            <div class="wrap">
+    			<center><img src="images/Wycliffe-logo.jpg" id="wycliffeImg"></center>
+    			<br>
+                <div id="primary" style="max-width: 650px;
+    margin: 0 auto;">
+                    <img src="images/wycliffeTeam.JPG" id="img">
                     <br>
                     <br>
                     <div id="content" role="main">
-                        <h1>Introduction</h1>
-                        <p>The Bible is one of the oldest and most popular books of all time. It’s something that everyone should be able to read in their own language, but approximately 1,600 languages around the world are still waiting for a translation project to begin.</p>
+                        <h2>Introduction</h2>
+                        <p>The Bible is one of the oldest and most popular books of all time. It’s something that everyone should be able to read in their own language, but approximately 1,600 languages around the world are still waiting for a translation project to begin. The purpose of this project by <strong><ins><a href="https://www.wycliffe.org/" target="blank">Wycliffe Bible Translators</a><ins></strong> is "to help speakers of these remaining languages get the Bible for themselves. And we won’t stop until all people have God’s Word in a language they understand."</p>
                     </div><!-- #content -->
                 </div><!-- #primary -->
  
@@ -89,14 +66,14 @@
         </div><!--#main-->
 
          <div id="main">
-            <div class="wrap" style="margin: 0 auto;
-    padding: 1em;">
-                <div id="primary">
-                    <img src="images/wycliffeTeam.JPG">
+            <div class="wrap">
+                <div id="primary" style="max-width: 650px;
+    margin: 0 auto;">
+                    <img src="images/styleGuide.png" id="img">
                     <br>
                     <br>
                     <div id="content" role="main">
-                        <h1>Design Research & User Needs</h1>
+                        <h2>Design Research & User Needs</h2>
                         <p>This web app helps individuals visualize the diversity of language and the value of Bible translation. It allows users from different countries to type their names and see them instantly translated or transliterated into several languages. It utilizes an interactive React dashboard used by missionaries and churches around the world and also at Wycliffe's Discovery Center located in Orlando, Florida.</p>
                     </div><!-- #content -->
                 </div><!-- #primary -->
@@ -105,43 +82,52 @@
         </div><!--#main-->
 
          <div id="main">
-            <div class="wrap" style="margin: 0 auto;
-    padding: 1em;">
-                <div id="primary">
+
+            <div class="wrap">
+
+                <div id="primary" style="max-width: 650px;
+    margin: 0 auto;">
                     <div class="row" style="display: table; clear: both;">
                         <div class="column" style="float: left;
-  width: 50%;
+  width: 100%;
   padding: 10px;">
-                    <img src="images/wycliffeTeam.JPG">
+                    <img src="images/tribeTitle.png" id="img">
                 </div>
-                    <div class="column" style="float: left;
-  width: 50%;
-  padding: 10px;">
-                    <img src="images/wycliffeTeam.JPG">
-                </div>
+                    
             </div>
                     <br>
                     <div id="content" role="main">
-                        <h1>Design Requirements</h1>
-                        <p>Our prototype required us to have a website that is functional and aesthetic. The layout had to be simple in personal ways that would communicate to the user that they should type their name and discover how it is translated or transliterated in multiple languages. There needed to be a title, text box, and a statement addressing users to type their name in the text box.  </p>
+                        <h2>Design Requirements & Solution</h2>
+                        <p>Our prototype required us to have a website that is functional and aesthetic. The layout had to be simple in personal ways that would communicate to the user that they should type their name and discover how it is translated or transliterated in multiple languages. There needed to be a title, text box, and a statement addressing users to type their name in the text box. Our solution was  simple and it clearly communicated to users to enter their name. </p>
             </div>
                     </div><!-- #content -->
                 </div><!-- #primary -->
- 
             </div><!--.wrap-->
         </div><!--#main-->
- 
-        <div id="footer" class="site-footer">
-            <div class="wrap" style="margin: 0 auto;
-    padding: 1em;">
- 
-                <p class="site-credits">© Copyright owner</p>
- 
-            </div><!--.wrap-->
-        </div><!--#footer-->
- 
-    </div><!--#page-->
 
+        <div id="main">
+
+            <div class="wrap">
+                <div id="primary" style="max-width: 650px;
+    margin: 0 auto;">
+                    <div class="row" style="display: table; clear: both;">
+                        <div class="column" style="float: left;
+  width: 100%;
+  padding: 10px;">
+                    <img src="images/everyTribe.png" id="img">
+                </div>              
+            </div>
+                    <br>
+                    <div id="content" role="main">
+                        <h2></h2>
+                        <p></p>
+            </div>
+                    </div><!-- #content -->
+                </div><!-- #primary -->
+            </div><!--.wrap-->
+        </div><!--#main-->
+
+    </div><!--#page-->
 
 <!-- Contacts -->
 			<section id="footer">
