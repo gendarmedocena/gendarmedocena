@@ -2773,7 +2773,7 @@ input, select, textarea {
 		font-weight: 400;
 		letter-spacing: 0.125em;
 		line-height: 2.75em;
-		padding: 0 2em;
+		padding: 0 1em;
 	}
 
 		input[type="submit"]:hover,
@@ -3012,6 +3012,7 @@ input, select, textarea {
 			box-shadow: inset 0 0 0 1px #ffffff;
 			color: #ffffff !important;
 			font-weight: bold;
+			padding: 0 2em;
 		}
 
 			#header input[type="submit"]:hover,
@@ -3210,6 +3211,7 @@ input, select, textarea {
 			box-shadow: inset 0 0 0 1px #ffffff;
 			color: #ffffff !important;
 			font-weight: bold;
+			padding: 0 2em;
 		}
 
 			#footer input[type="submit"]:hover,
